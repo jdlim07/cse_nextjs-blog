@@ -1,14 +1,111 @@
 .title {
   font-size: 50px;
   font-weight: 700;
-  color: cornflowerblue;
+  color: rgb(248, 242, 205);
   text-align: center;
+  text-decoration: none;
+  letter-spacing: 7px;
 }
 
 .center {
   text-align: center;
 }
 
-.font22 {
-  font-size: 22px;
+.start {
+  text-align: start;
+}
+
+.font35 {
+  font-size: 40px;
+  font-weight: 50;
+  letter-spacing: 3px;
+  color: rgb(154, 197, 235);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.font35_2 {
+  font-size: 35px;
+  font-weight: nomal;
+  letter-spacing: 2px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+}
+
+.font50 {
+  font-size: 50px;
+  font-weight: nomal;
+  letter-spacing: 5px;
+  transform: translateY(-28%);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.font1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 30px;
+}
+
+.font2 {
+  font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS",
+    sans-serif;
+  font-size: 30px;
+}
+
+.font3 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana;
+  font-size: 30px;
+}
+
+.section1 {
+  position: absolute;
+  left: 12%;
+  top: 95%;
+
+  width: 620px;
+  height: 1060px;
+  padding: 3% 5%;
+  background: rgba(200, 211, 210, 0.8);
+}
+.section2 {
+  position: absolute;
+  right: 12%;
+  top: 287.5px;
+  width: 40%;
+  height: 36%;
+  padding: 5% 5%;
+  background: rgba(200, 211, 210, 0.8);
+  line-height: 100px;
+}
+.section3 {
+  position: absolute;
+  right: 12%;
+  top: 160%;
+
+  width: 620px;
+  height: 1190px;
+  padding: 2% 5%;
+  background: rgba(200, 211, 210, 0.8);
+}
+.section4 {
+  position: absolute;
+  top: 267%;
+  left: 12%;
+  text-align: start;
+}
+
+.sectionP1 {
+  position: absolute;
+  top: 94.7%;
+  right: 12%;
+}
+.sectionP2 {
+  position: absolute;
+  top: 195.6%;
+  left: 12%;
+}
+
+.p {
+  position: absolute;
+  width: 50%; /* == (400px + 20px + 20px) * .5 = 220px */
+  height: 25%; /* == (160px + 30px + 30px) * .25 = 55px */
+  margin: 5%; /* == (400px + 20px + 20px) * .05 = 22px */
+  padding: 5%; /* == (400px + 20px + 20px) * .05 = 22px */
+  background: cyan;
 }
